@@ -92,7 +92,7 @@ hr.linha2{
     top:-110px;
 }
 
-h3 {
+h3.tipo-atendimento {
     position: relative;
     font-family: "Julius Sans One", sans-serif;
     font-weight: 400;
