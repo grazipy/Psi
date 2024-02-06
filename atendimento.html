@@ -5,6 +5,7 @@
     <title>Atendimento</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/atend.css">
+    <script src="_javascript/funcoes.js"></script>
 </head>
 <body>
 <div class="interface">
@@ -38,56 +39,49 @@
         funciona esse tipo de atendimento:</p>
     </div>
 
-    site para botao clicar e aparecer texto : https://www.clubedohardware.com.br/forums/topic/831506-javascript-clicar-em-um-bot%C3%A3o-e-aparecer-texto/#google_vignette
 
-    <button>1. Escolha a plataforma &rarr;</button>
 
-    O primeiro passo é a escolha de uma plataforma segura e confiável para realizar a sessão. Existem diversas opções,
-    desde aplicativos especializados até softwares de videoconferência. É crucial que a plataforma escolhida seja
-    compatível com as regulamentações éticas e de privacidade para garantir a confidencialidade do paciente.
+    <input type="button" onclick="insere_texto('texto1')" value="1. Escolha a plataforma  &rarr;">
 
-    <button>2. Agendamento da sessão &rarr;</button>
+    <div id="texto1"></div>
 
-    Assim como em um atendimento presencial, o paciente e o psicólogo devem combinar horários que se adequem às suas
-    agendas. Geralmente, os agendamentos são feitos por meio de um sistema online, proporcionando praticidade e
-    flexibilidade para ambas as partes.
 
-    <button>3. Preparação do ambiente &rarr;</button>
+    <input type="button" onclick="insere_texto('texto2')" value="2. Agendamento da sessão &rarr;">
 
-    Tanto o psicólogo quanto o paciente devem garantir que estão em um ambiente tranquilo e privado durante a sessão.
-    Isso contribui para a concentração e para a criação de um espaço seguro para a expressão emocional.
+    <div id="texto2"></div>
 
-    <button>4. Conexão online &rarr;</button>
 
-    Antes do início da sessão, é importante que ambas as partes testem a conexão com a internet, a câmera e o áudio para
-    evitar interrupções durante a sessão. A qualidade da conexão é crucial para uma comunicação eficaz.
+    <input type="button" onclick="insere_texto('texto3')" value="3. Preparação do ambiente &rarr;">
 
-    <button>5. Desenvolvimento do processo terapeutico &rarr;</button>
+    <div id="texto3"></div>
 
-    Durante a sessão, o psicólogo trabalha com o paciente da mesma forma que faria em um atendimento presencial. São
-    discutidos os desafios emocionais, os padrões de pensamento, as estratégias de enfrentamento e as metas
-    terapêuticas. A abordagem pode variar de acordo com a modalidade terapêutica escolhida, como a terapia
-    cognitivo-comportamental, psicanálise, entre outras.
 
-    <button>6. Recursos tecnologicos &rarr;</button>
+    <input type="button" onclick="insere_texto('texto4')" value="4. Conexão online &rarr;">
 
-    Algumas modalidades de terapia online podem incorporar recursos tecnológicos adicionais, como aplicativos de
-    monitoramento emocional, ferramentas de autoajuda ou exercícios práticos que podem ser realizados entre as sessões
-    para maximizar os benefícios terapêuticos.
+    <div id="texto4"></div>
 
-    <button>7. Avaliação e feedback &rarr;</button>
 
-    Ao final de cada sessão, o psicólogo pode conduzir uma avaliação do progresso do paciente e fornecer feedback
-    construtivo. A comunicação aberta é fundamental para garantir que a terapia esteja sendo eficaz e que as
-    necessidades do paciente estejam sendo atendidas.
+    <input type="button" onclick="insere_texto('texto5')" value="5. Desenvolvimento do processo terapeutico &rarr;">
 
-    <button>8. Manutenção da ética e privacidade &rarr;</button>
+    <div id="texto5"></div>
 
-    É imperativo que o psicólogo mantenha os mesmos padrões éticos e de confidencialidade que seriam esperados em um
-    ambiente presencial. Isso inclui a proteção dos dados do paciente e a garantia de um ambiente seguro e ético para a
-    expressão emocional.
 
-    [botao - agnedar horario]
+    <input type="button" onclick="insere_texto('texto6')" value="6. Recursos tecnologicos &rarr;">
+
+    <div id="texto6"></div>
+
+    <input type="button" onclick="insere_texto('texto7')" value="7. Avaliação e feedback &rarr;">
+
+
+    <div id="texto7"></div>
+
+    <input type="button" onclick="insere_texto('texto8')" value="8. Manutenção da ética e privacidade &rarr;">
+
+    <div id="texto8"></div>
+
+    <a href="https://api.whatsapp.com/send?phone=5531998175861">
+        <button type="button" class="botao-agendar2"> Agendar horário</button>
+    </a>
 
 <footer id="rodape">
 

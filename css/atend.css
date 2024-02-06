@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 
-
 div.texto-atendimento {
     width: 780px;
     height: auto;
@@ -16,12 +15,45 @@ div.texto-atendimento  p{
     font-size: 15pt;
 }
 
-button {
+input{
+    cursor:  pointer;
+    position: relative;
+    left: 225px;
     background-color: white;
+    border-color: black;
+    font-family: "Junge";
+    font-size: 20px;
+    font-style: normal;
+    width: 500px;
+    height: 50px;
+    margin-left: 4cm;
+    margin-top: 1cm;
+    border-width: 1px;
+}
+
+
+div#texto1, div#texto2, div#texto3, div#texto4, div#texto5, div#texto6, div#texto7, div#texto8{
+    width: 780px;
+    height: auto;
+    position: relative;
+    left: 215px;
+    margin: 35px;
+    font-family: Junge;
+    text-align: justify;
+    font-size: 15pt;
+
+}
+
+button.botao-agendar2{
+    cursor: pointer;
+    background-color: black;
     border-color: black;
     font-family: "Junge";
     font-style: normal;
     width: 200px;
     height: 50px;
-    margin-left: 4.7cm;
+    margin-left: 13.5cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm ;
+    color: white;
 }
