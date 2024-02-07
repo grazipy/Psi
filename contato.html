@@ -3,36 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/cont.css">
 </head>
 <body>
+<div class="interface">
+    <header id="cabecalho">
+
+        <figure class="logo">
+            <a href="index.html"><img src="_imagens/logo.jpg"></a>
+        </figure>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="atendimento.html">Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="sobre-mim.html">Sobre mim</a></li>
+                <li><a href="duvidas.html">Duvidas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section id="corpo">
+
+        <h1 class="titulo"> CONTATE-ME</h1>
+
+        <h1>Ainda está com duvida ?</h1>
+
+        <h2>ENTRE EM CONTATO COMIGO !</h2>
 
 
+       <!-- <h3 class="texto-ajuda"><u>Como posso te ajudar ?</u></h3> -->
 
-home
-atendimento
-contato
-sbore mim
-duvidas
-
-
-CONTATE-ME
-
-Ainda está com duvida ?
-
-Entre em contato comigo !
+     <figure class="foto-lado">
+         <img src="_imagens/foto-lado-psicologa.jpg">
+     </figure>
 
 
-Como posso te ajudar ?
+     <form method="post" action="mailto:samuel.delfino@ufv.br">
 
-Nome
+         <p><label for="cnome">Nome</label></p>
+         <input type="text" name="tnome" id="cnome" placeholder="Digite seu nome">
 
-Telefone
+         <p><label for="ctel">Telefone</label></p>
+         <input type="text" name="ttel" id="ctel" placeholder="(XX)XXXXX-XXXX" maxlength="11" required="required">
 
-Mensagem
+         <p><label for="cmsg">Mensagem</label></p>
+         <textarea name="tmsg" id="cmsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem" required="required"></textarea>
 
-[botao - submit]
+         [botao - submit]
+     </form>
+ </section>
 
-Leticia silva
-Psicologa CRP 00/00000
+
+ <footer id="rodape">
+
+     <figure class="logo2">
+         <img src="_imagens/logo2.jpg">
+     </figure>
+
+     <p class="rodape">Leticia silva crp 00/000000 - Todos os direitos reservados</p>
+ </footer>
+</div>
 </body>
 </html>

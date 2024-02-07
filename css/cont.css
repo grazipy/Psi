@@ -1,7 +1,12 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Junge&family=Titillium+Web&display=swap');
 
-p.texto-atendimento {
-    font-family: "Junge";
-    text-align: justify;
+.foto-lado img {
+    position: relative;
+    width: auto;
+    height: 600px;
+    left: 60px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
 }
+
