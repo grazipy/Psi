@@ -1,18 +1,51 @@
 @charset "UTF-8";
 
 .foto-lado img {
-    position: relative;
-    width: auto;
-    height: 600px;
-    left: 100px;
-    margin-top: 20px;
-    margin-bottom: -150px;
+    margin-left: 120px;
+    width: 350px;
+}
 
+.como-posso-ajudar{
+    position: absolute;
+    left: 530px;
+    font-family: "Julius Sans One";
+    text-decoration: underline;
+
+}
+form{
+    margin-top: -450px;
+    margin-left: 530px;
+    width: 100px;
 
 }
 
-form{
-    position: relative;
+footer{
+    margin-bottom: -500px;
+    margin-top: 200px;
+}
 
-    top: -350px;
+label{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 15pt;
+
+}
+input#cnome, input#ctel, textarea {
+    color: #C5BDBD;
+    background-color: #D9D9D9;
+    width: 650px;
+    height: 45px;
+    border: none;
+    font-size: medium;
+}
+input#botao-contato{
+    cursor: pointer;
+    background-color: white;
+    border-color: black;
+    font-family: "Junge";
+    font-style: normal;
+    width: 200px;
+    height: 50px;
+    border-width: 1px;
+    margin-top: 30px;
+    margin-left: 212px;
 }
