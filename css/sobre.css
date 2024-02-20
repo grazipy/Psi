@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+.foto-perfil-2 img{
+    width: 550px;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    display: block ;
+    position: relative;
+    left: 550px;
+    top: 25px;
+    margin-bottom: 100px;
+}
+
+.apresentacao p{
+    font-family: "Julius Sans One";
+    top: 360px;
+    text-align: center;
+    position: absolute;
+    width: 500px;
+    font-size: 19pt;
+    left: 15px;
+
+}
+
+.linha-sobre1{
+    width: 40%;
+    position: relative;
+    left: -375px;
+    top: 40px;
+}
+
+.linha-sobre2{
+    width: 40%;
+    position: relative;
+    left: -375px;
+    top: -75px;
+}
+
+.foto-atras img{
+    width: 550px;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    display: block ;
+    position: relative;
+    top: 25px;
+    margin-bottom: 100px;
+
+}
+
+.apresentacao-2 p{
+    font-family: "Julius Sans One";
+    top: 835px;
+    text-align: center;
+    position: absolute;
+    width: 500px;
+    font-size: 18.5pt;
+    left: 650px;
+
+}
+.linha-sobre3{
+    width: 40%;
+    position: relative;
+    left: 225px;
+    top: 45px;
+
+}
+
+.linha-sobre4{
+    width: 40%;
+    position: relative;
+    left: 225px;
+    top: -75px;
+
+}
+
+.botao-agendar2{
+    cursor: pointer;
+    background-color: black;
+    border-color: black;
+    font-family: "Junge";
+    font-style: normal;
+    width: 200px;
+    height: 50px;
+    margin-left: 1cm;
+
+
+    color: white;
+}
