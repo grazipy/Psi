@@ -49,6 +49,40 @@ function insere_texto(id) {
                 '    expressão emocional.'
             break;
 
+        case 'texto9':
+            texto= ' Reconhecer a necessidade de ajuda psicológica é crucial para cuidar da saúde mental. Sinais como persistentes\n' +
+                '    sentimentos de tristeza, dificuldades nas relações, alterações no sono ou apetite, problemas de concentração,\n' +
+                '    comportamentos autodestrutivos, trauma não resolvido, aumento da ansiedade, questões de autoestima e dificuldades em\n' +
+                '    lidar com mudanças podem indicar a importância de buscar apoio profissional. Se identificar esses sinais em sua\n' +
+                '    vida, considerar a ajuda de um psicólogo ou terapeuta é uma escolha corajosa e positiva para explorar emoções,\n' +
+                '    desenvolver estratégias de enfrentamento e receber suporte durante desafios emocionais. Lembrando que buscar ajuda é\n' +
+                '    um ato de autocuidado e coragem.'
+            break;
+
+        case 'texto10':
+            texto= 'A duração de uma sessão de terapia pode variar dependendo do profissional e do tipo de abordagem terapêutica. No\n' +
+                '    entanto, em geral, as sessões de terapia costumam durar em média 50 minutos a 1 hora.'
+            break;
+
+        case 'texto11':
+            texto= 'Os custos de uma sessão psicológica podem variar consideravelmente dependendo de vários fatores, como a região\n' +
+                ' geográfica, a experiência do psicólogo, o tipo de terapia oferecida e o contexto em que a terapia é realizada'
+            break;
+
+        case 'texto12':
+            texto= ' A terapia online e presencial têm características distintas. A terapia online oferece acessibilidade e conforto em\n' +
+                '    casa, enquanto a presencial proporciona conexão imediata e privacidade no consultório. Ambas são eficazes, mas a\n' +
+                '    escolha depende das preferências e circunstâncias individuais, considerando fatores como tecnologia, barreiras\n' +
+                '    físicas e familiaridade. Discutir essas opções com o terapeuta é essencial para uma decisão informada.'
+            break;
+
+        case 'texto13':
+            texto= ' Escolher o psicólogo certo envolve considerar suas necessidades, especialização e abordagem terapêutica. Verifique\n' +
+                '    as qualificações, licença e feedback de outros clientes. Estabeleça uma conexão pessoal durante a primeira consulta\n' +
+                '    e assegure-se de que o profissional seja acessível financeiramente e geograficamente. A ética profissional e a\n' +
+                '    sensibilidade cultural também são importantes. Leve o tempo necessário para encontrar um psicólogo com quem se sinta\n' +
+                '    confortável e confiante.'
+            break;
     }
     document.getElementById(id).innerHTML = texto;
 
